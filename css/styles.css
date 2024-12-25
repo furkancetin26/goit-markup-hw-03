@@ -122,10 +122,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  
-  
+  text-decoration: none;  
 }
 
 .logo span {
@@ -212,6 +209,7 @@ footer .footer{
     margin: 0 auto;
     padding-left: 150px;
 }
+
 footer p{
     width: 264px;
     color: #F4F4FD;
