@@ -112,14 +112,20 @@ p {
 .logo {
   display: inline-block; /* Logo öğesini satıra yerleştirir */
   padding: 24px 0 0 0;
+  
 }
 .logo a {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
-  letter-spacing: 3%;
+  
+  
 }
 
 .logo span {
