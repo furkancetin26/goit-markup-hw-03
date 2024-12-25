@@ -42,9 +42,13 @@ body {
 .second-row .card {
   display: inline-block;
 }
-
+.first-row{
+  width: 1200px;
+  margin: 0 auto;
+}
 #portfolio {
   text-align: center;
+  
 }
 #portfolio h2{
     padding-top: 120px;
@@ -161,20 +165,20 @@ header{
 #core-values p{
     width: 264px;
 }
-#our-team{
+.our-team{
     position: relative;
     text-align: center;
     margin-top: 120px;
     background-color: #F4F4FD;
 }
-#our-team ul li{
+.our-team ul li{
     display: inline-block;
     margin-right: 24px;
 }
-#our-team h2{
+.our-team h2{
     padding: 120px 0 72px 0;
 }
-#our-team ul {
+.our-team ul {
     padding-bottom: 120px;
 }
 
