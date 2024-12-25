@@ -164,6 +164,17 @@ address ul li {
   display: inline-block;
   margin-right: 40px;
 }
+nav ul li .li-element{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+nav ul li .li-element:hover{
+  color: #404bbf;
+}
+nav ul li .li-element:active{
+  color: #404bbf;
+}
 address ul li .li-element-2{
   line-height: 1.5;
   color: #434455;
