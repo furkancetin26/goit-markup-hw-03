@@ -7,6 +7,8 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 
 #Effective{
@@ -69,12 +71,17 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: Bold;
   font-size: 36px;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
  h3 {
   font-family: "Roboto", sans-serif;
-  font-weight: Medium;
+  font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   letter-spacing: 2%;
   color: #2E2F42;
 }
