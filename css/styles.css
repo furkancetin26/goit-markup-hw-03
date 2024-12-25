@@ -124,7 +124,17 @@ p {
   color: #4d5ae5;
   text-decoration: none;  
 }
-
+nav ul li .studio{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+nav ul li .studio:hover{
+  color: #404bbf;
+}
+nav ul li .studio:focus{
+  color: #404bbf;
+}
 nav span {
   color: #2e2f42;
 }
