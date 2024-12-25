@@ -68,7 +68,7 @@ h1{
     font-family: "Roboto", sans-serif;
     font-weight: Bold;
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 1.1;
     line-height: 1.07;
 }
 h2 {
@@ -158,11 +158,21 @@ nav ul li {
 address {
   display: inline-block;
   padding-left: 332px;
-  
+  font-style: normal;
 }
 address ul li {
   display: inline-block;
   margin-right: 40px;
+}
+address ul li .li-element-2{
+  line-height: 1.5;
+  color: #434455;
+}
+address ul li .li-element-2:hover{
+  color: #404bbf ;
+}
+address ul li .li-element-2:active{
+  color: #404bbf ;
 }
 header{
     text-align: center;
