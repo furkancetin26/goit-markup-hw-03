@@ -107,10 +107,7 @@ p {
   margin-top: 32px;
 }
 
-.logo {
-  padding: 24px 0 0 0;
-  
-}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -123,7 +120,7 @@ p {
 }
 
 nav .logo{
-  margin-right: 70px;
+  margin-right: 76px;
 }
 nav ul{
   list-style-type: none;
@@ -148,7 +145,7 @@ ul li a {
 }
 nav{
   display: flex;
-  
+  align-items: center;
 }
 nav ul{
   display: flex;
