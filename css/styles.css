@@ -8,6 +8,7 @@ header{
 }
 header .container{
   display: flex;
+  
 }
 html,
 body {
@@ -50,6 +51,9 @@ body {
   
   text-align: center;
 }
+.portfolio h2{
+  margin-bottom: 72px;
+}
 .portfolio h3 {
   text-align: start;
   padding: 32px 0 0 16px;
@@ -58,8 +62,10 @@ body {
   text-align: start;
   padding: 8px 0 32px 16px;
 }
+.portfolio ul{
+  column-gap: 24px;
+}
 .portfolio ul li{
-    margin-right: 24px;
     list-style-type: none;
 }
 h1{
@@ -125,6 +131,9 @@ nav .logo{
 nav ul{
   list-style-type: none;
 }
+nav ul .nav-link{
+  padding: 24px 0;
+}
 nav ul li{
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -175,9 +184,7 @@ nav ul li, address ul li{
   color: #2e2f42;
 
 }
-nav ul .li-element{
-  padding: 24px 0;
-}
+
 nav ul li .li-element:hover{
   color: #404bbf;
 }
