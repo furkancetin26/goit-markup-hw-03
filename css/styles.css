@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+header .container{
+  display: flex;
+}
 html,
 body {
   font-family: "Roboto", sans-serif;
@@ -15,24 +17,19 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-.header-container{
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc;
-}
 
-.effective .container{
+.effective{
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center; 
     color: #333333;
     height: 600px;
     background-color: #2E2F42;
     padding: 188px 0;
-    
+}
+.effective .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .effective h1{
     color: white;
@@ -55,14 +52,6 @@ body {
 }
 .portfolio h2{
   margin-bottom: 72px;
-}
-.portfolio h3 {
-  text-align: start;
-  padding: 32px 0 0 16px;
-}
-.portfolio p {
-  text-align: start;
-  padding: 8px 0 32px 16px;
 }
 .portfolio ul{
   column-gap: 24px;
@@ -104,12 +93,19 @@ p {
   color: #434455;
 }
 
-.first-row, .second-row {
+.first-row {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 72px;
+  column-gap: 24px;
+  row-gap: 48px;
+  text-align: start;
 }
-.second-row {
-  margin-top: 48px;
+.first-row div{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -262,22 +258,16 @@ img{
 footer{
     background-color: #2E2F42;
     position: relative;
+    padding: 100px 0
 }
-footer .footer{
-    padding: 100px 0 100px 0;
-    width: 1440px;
-    margin: 0 auto;
-    padding-left: 150px;
+footer a{
+  display: block;
+  margin-bottom: 16px;
 }
-
 footer p{
-    width: 264px;
+    max-width: 264px;
     color: #F4F4FD;
-    padding-top: 16px;
 }
 footer .studio-2{
     color: #F4F4FD;
-}
-button:hover {
-  cursor: pointer;
 }
